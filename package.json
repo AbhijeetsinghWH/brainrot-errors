@@ -1,0 +1,21 @@
+{
+  "name": "brainrot-errors",
+  "version": "1.0.0",
+  "description": "Plays a sound whenever a terminal command outputs an error",
+  "main": "bin/cli.js",
+  "bin": {
+    "brainrot": "bin/cli.js",
+    "brainrot-errors": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node bin/cli.js node -e \"throw new Error('test')\""
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "minimist": "^1.2.8",
+    "play-sound": "^1.1.6"
+  },
+  "keywords": ["cli", "errors", "sound", "brainrot"],
+  "author": "",
+  "license": "MIT"
+}
