@@ -1,6 +1,6 @@
 {
   "name": "brainrot-errors",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Plays a sound whenever a terminal command outputs an error",
   "main": "bin/cli.js",
   "bin": {
